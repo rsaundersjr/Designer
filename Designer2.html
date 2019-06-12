@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DESIGNERS-Official Site</title>
+    <link rel="stylesheet" type="text/css" href="designer2.css">
+
+</head>
+<body>
+    <header>
+
+        <div class="title">
+            <h1><a href="designer.html">DESIGNERS</a></h1></div>
+
+            <div class="memberLogin">
+              <form class="username" action="/action_page.php"
+              style="margin:auto;max-width:300px;">
+              <input type="text" placeholder="Username" name="user2">
+
+              <form class="password" action="/action_page.php"
+              style="margin:auto;max-width:300px;">
+              <input type="text" placeholder="Password" name="password2">
+              <p><button type="submit"><i class="signIn">Sign In</i></button></p>
+              </form>
+              </form>
+            </div>
+           
+    
+    </header>
+    
+    <main>
+            <div id="mySidenav" class="sidenav"> <a href="javascript:void(0)"
+                class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">MENS</a>
+                <a href="#">WOMENS</a>
+                <a href="#">BOYS</a>
+                <a href="#">GIRLS</a>
+                <a href="#">TODDLERS</a>
+            </div>
+        
+    
+
+    <span style="font-size: 30px; cursor: pointer;" onclick= "openNav()">&#9776;</span>
+
+
+            <div class="mySearchBar">
+                <form class="searchBar" action="/action_page.php"
+                style="margin:auto;max-width:300px;">
+                <input type="text" placeholder="Search..." name="search2">
+                <button type="submit"><i class="search">&#x1F50D;</i></button>
+                </form>
+            </div>  
+        
+
+            <div id="productContent" >
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+                <img src="#" alt="clothes">
+            </div>
+        
+    </main>
+    <footer>
+        <div class="subscribe">
+            <h2 style="color:aliceblue">Subscribe</h2>
+            <p>To get Special offers and VIP treatment:</p>
+            <input type="text" placeholder="Enter e-mail"> <br>
+            <button type="button">Subscribe</button>
+          </div>
+    
+    </footer>
+
+
+
+    <script>
+            
+            function openNav() {
+    
+                document.getElementById("mySidenav").style.width = "250px";
+               
+                document.getElementById("productContent").style.marginLeft = "250px;"
+            }
+            function closeNav() {
+    
+                document.getElementById("mySidenav").style.width="0";
+
+                document.getElementById("productContent").style.marginLeft = "0";
+            }
+            
+    </script>
+    
+</body>
+
+
+</html>
